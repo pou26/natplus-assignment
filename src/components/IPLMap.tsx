@@ -1,5 +1,4 @@
 'use client';
-
 import { MapPin, Trophy } from 'lucide-react';
 
 interface Team {
