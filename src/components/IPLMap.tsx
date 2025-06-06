@@ -1,6 +1,6 @@
 'use client';
 
-import {useRef } from 'react';
+// import {useRef } from 'react';
 import { MapPin, Trophy } from 'lucide-react';
 
 interface Team {
