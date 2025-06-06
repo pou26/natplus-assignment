@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useRef } from 'react';
+import {useRef } from 'react';
 import { MapPin, Trophy } from 'lucide-react';
 
 interface Team {
@@ -27,7 +27,7 @@ interface IPLMapProps {
 }
 
 export default function IPLMap({ teams, selectedTeams, onTeamSelect }: IPLMapProps) {
-  const mapRef = useRef<HTMLDivElement>(null);
+  
 
   return (
     <div className="relative w-full h-full bg-gradient-to-b from-blue-100 to-blue-50 rounded-lg overflow-hidden">
